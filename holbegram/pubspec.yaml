@@ -39,6 +39,10 @@ dependencies:
   firebase_auth: ^5.1.0
   cloud_firestore: ^5.0.1
   firebase_database: ^11.0.1
+  firebase_core: ^2.19.0
+
+assets:
+ - assets/images
 
 dev_dependencies:
   flutter_test:
@@ -89,6 +93,15 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+fonts:
+  - family: Billabong
+    fonts:
+      - asset: assets/fonts/Billabong.ttf
+      - asset: assets/fonts/InstagramSans.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
