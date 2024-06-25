@@ -55,7 +55,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
               const Image(
-                image: AssetImage('assets/images/holb-logo.webp'),
+                image: AssetImage('assets/images/logo.webp'),
                 width: 80,
                 height: 60,
               ),
